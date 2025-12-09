@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f4f9;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #ff6b81, #ff4757);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+nav {
+    background: #111;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 15px 25px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+}
+
+
+section {
+    background: white;
+    margin: 25px;
+    padding: 40px 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #ff4757;
+    border-left: 5px solid #ff4757;
+    padding-left: 10px;
+}
+
+
+.service-card {
+    width: 30%;
+    background: #fafafa;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.service-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.service-card strong {
+    color: #ff4757;
+    display: block;
+    margin: 10px 0;
+}
+
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+
+.gallery-card {
+    margin-bottom: 25px;
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.gallery-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.btn {
+    background: #ff4757;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background: #e84156;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 25px;
+}
